@@ -1,0 +1,178 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<title>Ziheng He's Classroom</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>300</maxFrames>
+<username>Ziheng He</username>
+
+<view>
+  <width>960</width>
+  <height>480</height>
+  <loc x="30" y="30"/>
+  <loc1 x1="30" y1="390"/>
+</view>
+
+<world>
+  <width>960</width>
+  <height>480</height>
+</world>
+
+<Hud>
+  <loc x="15" y="15"/>
+  <width>205</width>
+  <height>220</height>
+  <line>6</line>
+  <l1>A:avoid camera</l1>
+  <l2>S:pretend normal</l2>
+  <l3>D:avoid coach</l3>
+  <l4>SPACE:speed up</l4>
+  <l5>R:restart</l5>
+  <l6>G:God Mode</l6>
+</Hud>
+
+<HealthBar>
+  <startLoc x="30" y="460"/>
+  <!-- number of times the bar is decremented -->
+  <increment>50</increment>
+  <interval>300</interval>
+  <width>900</width>
+  <height>15</height>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <backColor>
+    <r>255</r>
+    <g>255</g>
+    <b>255</b>
+    <a>127</a>
+  </backColor>
+  <barColor>
+    <r>255</r>
+    <g>0</g>
+    <b>0</b>
+    <a>255</a>
+  </barColor>
+</HealthBar>
+
+<door>
+  <file>assets/top.png</file>
+  <factor>1</factor>
+  <transparency>true</transparency>
+</door>
+
+<floor>
+  <file>assets/nfloor.jpg</file>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</floor>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>0</red>
+  <green>0</green>
+  <blue>255</blue>
+  <alpha>0</alpha>
+</font>
+
+<endcoach>
+  <file>assets/coach.jpg</file>
+  <startLoc x="480" y="240"/>
+  <frames>2</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <rand>20</rand>
+  <transparency>false</transparency>
+  <safeDistance>75</safeDistance>
+</endcoach>
+
+<endteacher>
+  <file>assets/teacherend.jpg</file>
+  <startLoc x="480" y="240"/>
+  <frames>2</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <rand>20</rand>
+  <transparency>false</transparency>
+  <safeDistance>75</safeDistance>
+</endteacher>
+
+<endcamera>
+  <file>assets/news.png</file>
+  <startLoc x="480" y="240"/>
+  <frames>2</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <rand>20</rand>
+  <transparency>false</transparency>
+  <safeDistance>75</safeDistance>
+</endcamera>
+
+<endwin>
+  <file>assets/win.png</file>
+  <startLoc x="480" y="240"/>
+  <frames>2</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <rand>20</rand>
+  <transparency>false</transparency>
+  <safeDistance>75</safeDistance>
+</endwin>
+
+<normal>
+  <file>assets/normal.png</file>
+  <startLoc x="200" y="140"/>
+  <frames>5</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <rand>20</rand>
+  <transparency>true</transparency>
+  <safeDistance>75</safeDistance>
+</normal>
+
+
+
+<boy>
+  <file>assets/naughty.png</file>
+  <startLoc x="740" y="140"/>
+  <frames>8</frames>
+  <frameInterval>200</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <rand>0</rand>
+  <transparency>true</transparency>
+</boy>
+
+<teacher>
+  <file>assets/teacher.png</file>
+  <startLoc x="50" y="200"/>
+  <frames>13</frames>
+  <frameInterval>200</frameInterval>
+  <speedX>80</speedX>
+  <speedY>0</speedY>
+  <rand>0</rand>
+  <transparency>true</transparency>
+</teacher>
+
+<coach>
+  <file>assets/coach.png</file>
+  <startLoc x="450" y="60"/>
+  <frames>7</frames>
+  <frameInterval>200</frameInterval>
+  <speedX>50</speedX>
+  <speedY>0</speedY>
+  <rand>0</rand>
+  <transparency>true</transparency>
+</coach>
+
+</GameData>

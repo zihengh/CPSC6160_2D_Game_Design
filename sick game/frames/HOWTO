@@ -1,0 +1,3 @@
+To make a movie, go to frames dir:
+
+ffmpeg -r 60 -i Ziheng_He.%4d.bmp zihengh.mp4
